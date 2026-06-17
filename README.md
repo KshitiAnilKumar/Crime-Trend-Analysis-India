@@ -40,30 +40,34 @@ Crime categories include murder, attempt to murder, culpable homicide, rape, kid
 
 ## Repository Structure
 
-```
+```text
 Crime-Trend-Analysis-India/
-├── Data Classification/
-│   └── Each State Details.pdf       # Per-state grouping; numerical vs. categorical
-│                                       and discrete vs. continuous column typing
-├── Data Transformation/
-│   └── Data Transformation.pdf      # Log, reciprocal, sqrt, Box-Cox, Yeo-Johnson,
-│                                       robust/min-max/standard scaling + visualizations
-├── Feature Selection/
-│   └── Feature selection.pdf        # Normalization, encoding, aggregation, interaction
-│                                       features, severity binning, variance thresholding
-├── Dimension Reduction/
-│   └── Dimension Reduction.pdf      # PCA, t-SNE, LDA, Feature Agglomeration
-├── Frequent Pattern Mining/
-│   └── Freq Pattern Matching.pdf    # Apriori algorithm on binarized crime indicators
-├── Hypothesis Testing/
-│   └── Null Hypothesis.pdf          # One-way ANOVA across states
-├── Data Splitting/
-│   └── Data Splitting ( Train and Test ).pdf  # Train/test split, stratified shuffle
-│                                                 split, stratified K-fold, LOOCV
-└── Report/
-    └── Report EDA.pdf               # Full written report: problem statement,
-                                        methodology, findings, conclusion, and
-                                        a 2001–2012 vs. 2017–2021 trend comparison
+
+├── Code/
+│   ├── EDA.ipynb
+│   ├── DataTransformation_EDA.ipynb
+│   ├── Feature selection_EDA.ipynb
+│   ├── Dimension Reduction_EDA.ipynb
+│   ├── Freq Pattern Matching_EDA.ipynb
+│   ├── Null Hypothesis_EDA.ipynb
+│   └── Data Splitting ( Train and Test )_EDA.ipynb
+│
+├── Dataset/
+│   └── 01_District_wise_crimes_committed_IPC_2001_2012.csv
+│
+├── Images/
+│   ├── Images/
+│   │   ├── state_wise_crime_distribution.jpeg
+│   │   ├── district_wise_crime_analysis.jpeg
+│   │   ├── feature_importance.jpeg
+│   │   └── pca_visualization.jpeg
+│   │
+│   └── Report/
+│       └── Report.pdf
+│
+├── requirements.txt
+│
+└── README.md
 ```
 
 ## Methodology
