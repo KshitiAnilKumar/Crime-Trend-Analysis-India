@@ -88,6 +88,24 @@ The analysis follows a standard EDA-to-modeling-readiness pipeline:
 - Comparing the 2001–2012 data with 2017–2021 trends shows that overall IPC crime rates continued to rise through 2019, dipped slightly in 2020, and remained elevated by 2021 — with the same high-population states continuing to lead in crime volume across both periods.
 - Low-population states and union territories (Sikkim, Mizoram, Lakshadweep) consistently show lower crime counts across both periods, likely reflecting smaller populations and more rural settings.
 
+## Visualizations
+
+### State-wise Crime Distribution
+
+![State-wise Crime Distribution](Images/state_wise_crime_distribution.jpeg)
+
+### District-wise Crime Analysis
+
+![District-wise Crime Analysis](Images/district_wise_crime_analysis.jpeg)
+
+### Feature Importance using Mutual Information
+
+![Feature Importance](Images/feature_importance.jpeg)
+
+### PCA Projection
+
+![PCA Visualization](Images/pca_visualization.jpeg)
+
 ## Team
 
 Contributors:
