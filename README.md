@@ -24,13 +24,13 @@ A data analytics project examining district-wise crimes committed under the Indi
 
 ## Overview
 
-The dataset records annual crime counts — murder, rape, kidnapping, dacoity, theft, and other offenses — for every district in India from 2001 to 2012. This project walks through a full EDA pipeline on that data: cleaning and classification, transformation and scaling, feature engineering and selection, dimensionality reduction, frequent pattern mining, hypothesis testing, and train/test splitting. The goal is to surface regional and temporal crime patterns that can inform resource allocation and policy decisions, and to set up the dataset for downstream predictive modeling.
+The dataset records annual crime counts — murder, rape, kidnapping, dacoity, theft, and other offenses — for every district in India from 2001 to 2012. This project applies a complete data analytics and data mining pipeline to crime records, including preprocessing, transformation, feature engineering, dimensionality reduction, pattern mining, hypothesis testing, and model-preparation techniques. The goal is to surface regional and temporal crime patterns that can inform resource allocation and policy decisions, and to set up the dataset for downstream predictive modeling.
 
 ## Dataset
 
 | | |
 |---|---|
-| **Source file** | `01_District_wise_crimes_committed_IPC_2001_2012.csv` |
+| **Source file** | `Crime Trends in India (2001–2020), Kaggle (uploaded by thedevastator), compiled from National Crime Records Bureau (NCRB), Ministry of Home Affairs, Government of India crime statistics.` |
 | **Records** | 9,017 rows (one per district per year) |
 | **Original columns** | 33 (`YEAR`, `STATE/UT`, `DISTRICT`, plus ~30 IPC crime categories) |
 | **Time span** | 2001–2012 |
@@ -90,7 +90,7 @@ The analysis follows a standard EDA-to-modeling-readiness pipeline:
 
 ## Team
 
-This project was developed as a Crime Trend Analysis research and data analytics project by:
+Contributors:
 
 - Kshiti Anil Kumar
 - Bindushree C E
@@ -100,4 +100,4 @@ This project was developed as a Crime Trend Analysis research and data analytics
 
 ## License
 
-This project is shared for educational and research purposes. Please cite the original dataset source ("District Wise Crime Committed Under IPC 2001-2012", National Crime Records Bureau, India) if reused.
+This project is shared for educational and research purposes. Please cite the original dataset source (Crime Trends in India (2001–2020). Retrieved from Kaggle: https://www.kaggle.com/datasets/thedevastator/crime-trends-in-india-from-2001-to-2020. Originally sourced from the National Crime Records Bureau (NCRB), Government of India). if reused.
