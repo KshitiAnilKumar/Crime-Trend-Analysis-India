@@ -92,19 +92,19 @@ The analysis follows a standard EDA-to-modeling-readiness pipeline:
 
 ### State-wise Crime Distribution
 
-![State-wise Crime Distribution](Images/state_wise_crime_distribution.jpeg)
+![State-wise Crime Distribution](Crime-Trend-Analysis-India/Images/state_wise_crime_distribution.jpeg)
 
 ### District-wise Crime Analysis
 
-![District-wise Crime Analysis](Images/district_wise_crime_analysis.jpeg)
+![District-wise Crime Analysis](Crime-Trend-Analysis-India/Images/district_wise_crime_analysis.jpeg)
 
 ### Feature Importance using Mutual Information
 
-![Feature Importance](Images/feature_importance.jpeg)
+![Feature Importance](Crime-Trend-Analysis-India/Images/feature_importance.jpeg)
 
 ### PCA Projection
 
-![PCA Visualization](Images/pca_visualization.jpeg)
+![PCA Visualization](Crime-Trend-Analysis-India/Images/pca_visualization.jpeg)
 
 ## Team
 
